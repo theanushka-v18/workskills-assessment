@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import url("https://use.typekit.net/juo1xes.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-image: linear-gradient(#240f77, #111111);
+    -webkit-font-smoothing: antialiased;
+    height: 155rem;
+    /* background-color: #180a57; */
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* style main container  */
+.container {
+    color: #ccdae7;
+    font-family: 'Inter', sans-serif;
+    /* border: 2px solid red; */
+    width: 98vw;
+    height: 100rem;
+}
+/* navbar styles starts */
+.combine {
+    /* border: 2px solid crimson; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55rem;
+}
+.navbar {
+    /* border: 2px solid salmon; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    margin-top: 2.5rem;
+}
+.nav-logo {
+    /* border: 2px solid yellow; */
+    width: fit-content;
+}
+.nav-logo img {
+    width: 10rem;
+}
+.nav-logo img:hover {
+    cursor: pointer;
+}
+.nav-menu {
+    /* border: 2px solid blue; */
+    width: 35rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 7rem;
+}
+.nav-menu li a {
+    color: #ccdae7;
+}
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu ul li#sup sup {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    background-color: #3aecba;
+    color: #0d1117;
+    text-align: center;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+.buy-btn {
+    /* border: 2px solid green; */
+    width: fit-content;
+    background: #0052cc;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+}
+.buy-btn a{
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+/* navbar styles ends  */
+
+/* hero section styles starts  */
+.hero {
+    /* border: 1px solid green; */
+    height: 90rem;
+}
+.heading {
+    /* border: 1px solid yellow; */
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+}
+.heading h1 {
+    font-size: 7rem;
+    line-height: 1;
+}
+.heading h1:first-child {
+    margin-left: 6rem;
+}
+.heading h1 span {
+    background-image: linear-gradient(207deg,#e23b3b 23%,#6668eb 87%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+/* macbook interface styles starts */
+.macbook {
+    border: 1px solid #646f7c;
+    border-bottom: none;
+    width: 62rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-top: 3rem;
+}
+.macbook .mac-img {
+    /* border: 1px solid yellow; */
+    margin: 0.3rem 0rem;
+    border-bottom: 1px solid grey;
+}
+.macbook .mac-img img {
+    /* border: 1px solid orangered; */
+    width: max-content;
+    padding: 0.7rem;
+    margin-left: 1rem;
+}
+
+/* macbook code section styles starts */
+.mac-code {
+    /* border: 1px solid blue; */
+    height: 38rem;
+    margin: 1.5rem 1rem;
+    font-family: calling-code, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 1.8rem;
+    color: #5b6d83;
+}
+.grid-layout {
+    margin-bottom: 0.3rem;
+}
+.grid-layout span {
+    color: #ec6464;
+}
+.grid-layout span.color {
+    color: #1acee9;
+}
+/* macbook code section styles ends */
+
+/* macbook interface styles ends */
+
+/* last section styles of hero section styles starts */
+.dld-btn {
+    /* border: 1px solid crimson; */
+    width: 62rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+}
+.dld-btn p {
+    width: max-content;
+    margin: auto auto;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    letter-spacing: -.02em;
+    color: #ccdae7;
+}
+.dld-btn .btn {
+    /* border: 1px solid #6668eb; */
+    width: fit-content;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 1.5rem 2.5rem;
+    background-color: #0052cc;
+    border-radius: 3rem;
+}
+.dld-btn .btn a {
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #ccdae7;
+}
+/* last section styles of hero section styles ends */
+
+/* hero section styles ends  */
+
+/* footer section styles starts */
+.main-footer {
+    /* border: 1px solid rgb(107, 107, 202); */
+    margin-top: 1rem;
+}
+.main-footer .top-footer {
+    /* border: 1px solid #3aecba; */
+    display: flex;
+    justify-content: space-between;
+    width: 100rem;
+    margin: auto;
+}
+.top-footer .footer-logo {
+    /* border: 1px solid yellowgreen; */
+    width: fit-content;
+}
+.top-footer .footer-logo img {
+    width: 10rem;
+}
+.top-footer .footer-menu {
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: space-between;
+    width: 75rem;
+    margin-right: 5rem;
+}
+.top-footer .footer-menu ul li a {
+    color: #646f7c;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+    font-family: 'Inter', sans-serif;
+}
+.top-footer .footer-menu ul li a:hover {
+    color: #ffffff;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.top-footer .footer-menu ul li a#first {
+    font-size: 1rem;
+    color: #ccdae7;
+}
+
+.main-footer .last-footer {
+    border-top: 1px solid #646f7c;
+    width: 100rem;
+    margin: auto;
+    height: 10rem;
+    margin-top: 5rem;
+}
+.main-footer .last-footer ul {
+    display: flex;
+    margin-top: 2rem;
+}
+.main-footer .last-footer ul li {
+    margin-right: 2rem;
+}
+.main-footer .last-footer ul li a {
+    color: #646f7c;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+.main-footer .last-footer ul li a:hover {
+    color: #ffffff;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+/* footer section styles ends */
+
+/* media queries  */
+@media screen and (min-width: 1024px) {
+}
+@media  screen and (min-width: 768px) and (max-width: 1023px) {
+    .main-footer {
+        margin-left: 1rem;
+    }
+    .main-footer .last-footer {
+        width: 92rem;
+    }
+    .navbar {
+        width: 82rem;
+        margin-left: 9rem;
+    }
+    .hero {
+        margin-left: 14rem;
+        width: max-content;
+    }
+}
+@media  screen and (max-width: 768px) {
+    .main-footer {
+        margin-left: 6rem;
+    }
+    .main-footer .last-footer {
+        width: 90rem;
+    }
+    .navbar {
+        width: 82rem;
+        margin-left: 9rem;
+    }
+    .hero {
+        margin-left: 14rem;
+        width: max-content;
+    }
+}
